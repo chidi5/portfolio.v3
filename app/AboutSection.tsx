@@ -24,38 +24,40 @@ const AboutSection = () => {
       </div>
       <div>
         <p className="mb-4 font-medium">
-          Now, I'm back on the tech scene, eager to reunite with my first love
-          💕 - full-stack development. Coding has always been my passion, and
-          solving problems is like a thrilling puzzle waiting to be cracked.
-          I've honed my skills in the entrepreneurial trenches, but the allure
-          of crafting sleek, efficient software is pulling me back into the
-          world of algorithms and lines of code.
+          Now, I&apos;m back on the tech scene, eager to reunite with my first
+          love 💕 - full-stack development. Coding has always been my passion,
+          and solving problems is like a thrilling puzzle waiting to be cracked.
+          I&apos;ve honed my skills in the entrepreneurial trenches, but the
+          allure of crafting sleek, efficient software is pulling me back into
+          the world of algorithms and lines of code.
         </p>
       </div>
       <div>
         <p className="mb-4 font-medium">
-          Currently, I'm seeking new opportunities to merge my business acumen
-          with my technical prowess. At the intersection of design and
-          engineering, I find my sweet spot – where things not only look good
+          Currently, I&apos;m seeking new opportunities to merge my business
+          acumen with my technical prowess. At the intersection of design and
+          engineering, I find my sweet spot - where things not only look good
           but also function seamlessly. My journey has taken me from the
-          corridors of academia to the boardrooms of startups, and now, I'm
+          corridors of academia to the boardrooms of startups, and now, I&apos;m
           ready for the next exciting chapter.
         </p>
       </div>
       <div>
         <p className="mb-4 font-medium">
-          Beyond the keyboard, you'll find me on the football field, chasing a
-          ball with the same enthusiasm I bring to coding. Weekends are for
-          soccer, and weekdays are for tackling challenges, both in and out of
-          the tech realm. I'm not just a coder; I'm a problem solver, a football
-          fanatic, and someone who thrives on embracing new challenges.
+          Beyond the keyboard, you&apos;ll find me on the football field,
+          chasing a ball with the same enthusiasm I bring to coding. Weekends
+          are for soccer, and weekdays are for tackling challenges, both in and
+          out of the tech realm. I&apos;m not just a coder; I&apos;m a problem
+          solver, a football fanatic, and someone who thrives on embracing new
+          challenges.
         </p>
       </div>
       <div>
         <p className="mb-4 font-medium">
-          So, whether it's collaborating on cutting-edge projects or tackling
-          coding conundrums, I'm ready to bring my unique blend of skills and
-          experiences to the table. Let's create something amazing together!
+          So, whether it&apos;s collaborating on cutting-edge projects or
+          tackling coding conundrums, I&apos;m ready to bring my unique blend of
+          skills and experiences to the table. Let&apos;s create something
+          amazing together!
         </p>
       </div>
     </Section>

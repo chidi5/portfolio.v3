@@ -27,7 +27,7 @@ export default function Home() {
       >
         <Flex direction="column" justify="center">
           <Heading mb="4" weight="bold" size={{ initial: "8", md: "9" }}>
-            I'm Joshua Igbokwe
+            I&apos;m Joshua Igbokwe
           </Heading>
           <p className="text-base font-medium md:max-w-96">
             I build pixel-perfect, engaging, and accessible digital experiences.
