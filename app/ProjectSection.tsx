@@ -40,7 +40,7 @@ const ProjectSection = () => {
                   <Heading
                     as="h3"
                     size="3"
-                    className="group-hover:text-pink-500"
+                    className="group-hover:text-indigo-500"
                   >
                     Issue Tracking App
                   </Heading>
@@ -57,7 +57,7 @@ const ProjectSection = () => {
                     aria-label="Technologies used:"
                   >
                     <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-pink-400/10 px-3 py-1 text-xs font-medium leading-5 text-pink-400 ">
+                      <div className="flex items-center rounded-full bg-indigo-400/10 px-3 py-1 text-xs font-medium leading-5 text-indigo-400 ">
                         Next.js
                       </div>
                     </li>
