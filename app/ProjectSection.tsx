@@ -45,11 +45,38 @@ const ProjectSection = () => {
                     Issue Tracking App
                   </Heading>
                   <p className="mt-2 text-sm leading-normal font-medium">
-                    Video course that teaches how to build a web app with the
-                    Spotify Web API. Topics covered include the principles of
-                    REST APIs, user auth flows, Node, Express, React, Styled
-                    Components, and more.
+                    Web app for efficient issue tracking. Create, save, and
+                    assign issues seamlessly. Track the status of each issue,
+                    whether it&apos;s open, closed, or in progress. Stay
+                    organized and streamline your workflow with this
+                    user-friendly issue-tracking tool for effective project
+                    management.
                   </p>
+                  <ul
+                    className="mt-2 flex flex-wrap"
+                    aria-label="Technologies used:"
+                  >
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                        Next.js
+                      </div>
+                    </li>
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                        TypeScript
+                      </div>
+                    </li>
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                        Prisma
+                      </div>
+                    </li>
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                        PlanetScale
+                      </div>
+                    </li>
+                  </ul>
                 </div>
               </Flex>
             </Link>
