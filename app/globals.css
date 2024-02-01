@@ -8,14 +8,6 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -24,4 +16,22 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .nav-links {
+    @apply mr-4 h-px w-8 bg-slate-800 transition-all group-hover:w-16 group-hover:bg-slate-600 group-focus-visible:w-16 group-focus-visible:bg-slate-600 motion-reduce:transition-none;
+  }
+  .nav-text {
+    @apply text-xs font-bold uppercase tracking-widest text-slate-700 group-hover:text-slate-900 group-focus-visible:text-slate-900;
+  }
+}
+
+.link:hover {
+  color: var(--accent-9);
+}
+
+section {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
 }
