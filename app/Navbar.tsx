@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className="border-2 border-gray-300 rounded-full m-6 px-2 py-1 md:hidden">
       <Container>
-        <Flex justify="between" gap="6" align="center" px="2">
+        <Flex justify="between" gap="6" align="center" className="max-w-72">
           <Link href="/">
             <Image
               src={me}
@@ -47,7 +47,7 @@ const NavLinks = () => {
         <li key={link.href}>
           <Link
             className={classNames({
-              "!text-slate-900 text-sm font-bold": true,
+              "!text-slate-900 text-sm font-semibold": true,
               "!text-slate-950": link.href === navLink,
             })}
             href={link.href}
