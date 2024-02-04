@@ -9,6 +9,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import AboutSection from "./AboutSection";
 import ProjectSection from "./ProjectSection";
+import { Metadata } from "next";
 
 export default function Home() {
   return (
@@ -59,3 +60,8 @@ export default function Home() {
     </Flex>
   );
 }
+
+export const metadata: Metadata = {
+  title: "Joshua Igbokwe",
+  description: "My portfolio",
+};
