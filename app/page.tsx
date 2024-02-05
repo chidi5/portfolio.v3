@@ -38,6 +38,7 @@ export default function Home() {
         <ul className="flex items-center ml-1">
           <li className="mr-5 text-xs shrink-0">
             <Link
+              target="_blank"
               href="https://github.com/chidi5"
               className="p-6 hover:text-slate-600"
             >
@@ -46,7 +47,8 @@ export default function Home() {
           </li>
           <li className="mr-5 text-xs shrink-0">
             <Link
-              href="www.linkedin.com/in/josh-igbokwe-5aba9b146"
+              target="_blank"
+              href="https://linkedin.com/in/josh-igbokwe-5aba9b146"
               className="p-6 hover:text-slate-600"
             >
               <FontAwesomeIcon icon={faLinkedin} />
@@ -54,6 +56,7 @@ export default function Home() {
           </li>
           <li className="mr-5 text-xs shrink-0">
             <Link
+              target="_blank"
               href="https://twitter.com/igbokwe_ji"
               className="p-6 hover:text-slate-600"
             >
