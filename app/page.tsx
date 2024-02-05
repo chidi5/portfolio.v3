@@ -37,17 +37,26 @@ export default function Home() {
         </Flex>
         <ul className="flex items-center ml-1">
           <li className="mr-5 text-xs shrink-0">
-            <Link href="/" className="p-6 hover:text-slate-600">
+            <Link
+              href="https://github.com/chidi5"
+              className="p-6 hover:text-slate-600"
+            >
               <FontAwesomeIcon icon={faGithub} />
             </Link>
           </li>
           <li className="mr-5 text-xs shrink-0">
-            <Link href="/" className="p-6 hover:text-slate-600">
+            <Link
+              href="www.linkedin.com/in/josh-igbokwe-5aba9b146"
+              className="p-6 hover:text-slate-600"
+            >
               <FontAwesomeIcon icon={faLinkedin} />
             </Link>
           </li>
           <li className="mr-5 text-xs shrink-0">
-            <Link href="/" className="p-6 hover:text-slate-600">
+            <Link
+              href="https://twitter.com/igbokwe_ji"
+              className="p-6 hover:text-slate-600"
+            >
               <FontAwesomeIcon icon={faXTwitter} />
             </Link>
           </li>
