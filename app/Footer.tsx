@@ -8,7 +8,7 @@ const Footer = () => {
         Inspired by Brittany Chang, project coded in{" "}
         <Link
           href="https://code.visualstudio.com/"
-          className="font-medium text-slate-900 hover:text-teal-300 focus-visible:text-teal-300"
+          className="font-medium text-slate-900 hover:text-indigo-300 focus-visible:text-indigo-300"
           target="_blank"
           rel="noreferrer noopener"
           aria-label="Visual Studio Code (opens in a new tab)"
@@ -18,7 +18,7 @@ const Footer = () => {
         by yours truly. Built with{" "}
         <Link
           href="https://nextjs.org/"
-          className="font-medium text-slate-900 hover:text-teal-300 focus-visible:text-teal-300"
+          className="font-medium text-slate-900 hover:text-indigo-300 focus-visible:text-indigo-300"
           target="_blank"
           rel="noreferrer noopener"
           aria-label="Next.js (opens in a new tab)"
@@ -28,7 +28,7 @@ const Footer = () => {
         and{" "}
         <Link
           href="https://tailwindcss.com/"
-          className="font-medium text-slate-900 hover:text-teal-300 focus-visible:text-teal-300"
+          className="font-medium text-slate-900 hover:text-indigo-300 focus-visible:text-indigo-300"
           target="_blank"
           rel="noreferrer noopener"
           aria-label="Tailwind CSS (opens in a new tab)"
@@ -38,7 +38,7 @@ const Footer = () => {
         , deployed with{" "}
         <Link
           href="https://vercel.com/"
-          className="font-medium text-slate-900 hover:text-teal-300 focus-visible:text-teal-300"
+          className="font-medium text-slate-900 hover:text-indigo-300 focus-visible:text-indigo-300"
           target="_blank"
           rel="noreferrer noopener"
           aria-label="Vercel (opens in a new tab)"
@@ -48,7 +48,7 @@ const Footer = () => {
         . All text is set in the{" "}
         <Link
           href="https://rsms.me/montserrat/"
-          className="font-medium text-slate-900 hover:text-teal-300 focus-visible:text-teal-300"
+          className="font-medium text-slate-900 hover:text-indigo-300 focus-visible:text-indigo-300"
           target="_blank"
           rel="noreferrer noopener"
           aria-label="Montserrat (opens in a new tab)"
