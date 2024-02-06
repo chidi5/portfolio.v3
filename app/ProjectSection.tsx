@@ -197,7 +197,7 @@ const ProjectSection = () => {
             </Link>
           </li>
           <li className="mb-12 group">
-            <Link href="https://cloud-zone.netlify.app/" target="_blank">
+            <Link href="https://academx.netlify.app/" target="_blank">
               <Flex
                 direction={{ initial: "column-reverse", sm: "row" }}
                 gap="4"
