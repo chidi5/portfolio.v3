@@ -33,7 +33,7 @@ const NavLinks = () => {
   const links = [
     { label: "About", href: "#about" },
     { label: "Projects", href: "#projects" },
-    { label: "Contact", href: "#contact" },
+    { label: "Contact", href: "mailto:joshdash.ji@gmail.com" },
   ];
 
   useEffect(() => {
