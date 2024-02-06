@@ -218,7 +218,7 @@ const ProjectSection = () => {
                     size="3"
                     className="group-hover:text-indigo-500"
                   >
-                    Weather App
+                    Admin Dashboard
                   </Heading>
                   <p className="mt-2 text-sm leading-normal font-medium">
                     A mock up admin dashboard for school owners to monitor
