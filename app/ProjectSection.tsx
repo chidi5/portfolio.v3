@@ -4,6 +4,7 @@ import Link from "next/link";
 import issueTracker from "./images/issue-tracker.png";
 import fastKeys from "./images/fast-keys.png";
 import cloud from "./images/cloud.png";
+import dashboard from "./images/dashboard.png";
 import Image from "next/image";
 
 const ProjectSection = () => {
@@ -177,12 +178,64 @@ const ProjectSection = () => {
                     </li>
                     <li className="mr-1.5 mt-2">
                       <div className="flex items-center rounded-full bg-indigo-400/10 px-3 py-1 text-xs font-medium leading-5 text-indigo-400 ">
+                        Tailwind
+                      </div>
+                    </li>
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-indigo-400/10 px-3 py-1 text-xs font-medium leading-5 text-indigo-400 ">
                         Weather Api
                       </div>
                     </li>
                     <li className="mr-1.5 mt-2">
                       <div className="flex items-center rounded-full bg-indigo-400/10 px-3 py-1 text-xs font-medium leading-5 text-indigo-400 ">
                         Redux
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </Flex>
+            </Link>
+          </li>
+          <li className="mb-12 group">
+            <Link href="https://cloud-zone.netlify.app/" target="_blank">
+              <Flex
+                direction={{ initial: "column-reverse", sm: "row" }}
+                gap="4"
+                className="p-4 rounded-md backdrop-blur-sm group-hover:bg-slate-400 group-hover:bg-opacity-10"
+              >
+                <div>
+                  <Image
+                    src={dashboard}
+                    alt="An admin dashboard"
+                    width={200}
+                    height={50}
+                    className="border-2 border-gray-300 rounded-md"
+                  />
+                </div>
+                <div className="w-full">
+                  <Heading
+                    as="h3"
+                    size="3"
+                    className="group-hover:text-indigo-500"
+                  >
+                    Weather App
+                  </Heading>
+                  <p className="mt-2 text-sm leading-normal font-medium">
+                    A mock up admin dashboard for school owners to monitor
+                    students, teachers and finance in the school.
+                  </p>
+                  <ul
+                    className="mt-2 flex flex-wrap"
+                    aria-label="Technologies used:"
+                  >
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-indigo-400/10 px-3 py-1 text-xs font-medium leading-5 text-indigo-400 ">
+                        react.js
+                      </div>
+                    </li>
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-indigo-400/10 px-3 py-1 text-xs font-medium leading-5 text-indigo-400 ">
+                        Tailwind
                       </div>
                     </li>
                   </ul>
