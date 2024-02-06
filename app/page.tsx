@@ -1,4 +1,4 @@
-import { Box, Button, Flex, Heading, Section, Text } from "@radix-ui/themes";
+import { Box, Flex, Heading } from "@radix-ui/themes";
 import Link from "next/link";
 import NavLinks from "./Navigation";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -10,6 +10,7 @@ import {
 import AboutSection from "./AboutSection";
 import ProjectSection from "./ProjectSection";
 import { Metadata } from "next";
+import Footer from "./Footer";
 
 export default function Home() {
   return (
@@ -69,6 +70,7 @@ export default function Home() {
         <AboutSection />
         <ProjectSection />
       </Box>
+      <Footer />
     </Flex>
   );
 }
