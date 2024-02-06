@@ -69,8 +69,8 @@ export default function Home() {
       <Box className="pt-24 lg:w-1/2 lg:py-24">
         <AboutSection />
         <ProjectSection />
+        <Footer />
       </Box>
-      <Footer />
     </Flex>
   );
 }
