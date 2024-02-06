@@ -3,6 +3,7 @@ import React from "react";
 import Link from "next/link";
 import issueTracker from "./images/issue-tracker.png";
 import fastKeys from "./images/fast-keys.png";
+import cloud from "./images/cloud.png";
 import Image from "next/image";
 
 const ProjectSection = () => {
@@ -135,10 +136,7 @@ const ProjectSection = () => {
             </Link>
           </li>
           <li className="mb-12 group">
-            <Link
-              href="https://issue-tracker-ten-plum.vercel.app"
-              target="_blank"
-            >
+            <Link href="https://cloud-zone.netlify.app/" target="_blank">
               <Flex
                 direction={{ initial: "column-reverse", sm: "row" }}
                 gap="4"
@@ -146,8 +144,8 @@ const ProjectSection = () => {
               >
                 <div>
                   <Image
-                    src={issueTracker}
-                    alt="A house in a forest"
+                    src={cloud}
+                    alt="A weather app image"
                     width={200}
                     height={50}
                     className="border-2 border-gray-300 rounded-md"
@@ -159,15 +157,14 @@ const ProjectSection = () => {
                     size="3"
                     className="group-hover:text-indigo-500"
                   >
-                    Issue Tracking App
+                    Weather App
                   </Heading>
                   <p className="mt-2 text-sm leading-normal font-medium">
-                    Web app for efficient issue tracking. Create, save, and
-                    assign issues seamlessly. Track the status of each issue,
-                    whether it&apos;s open, closed, or in progress. Stay
-                    organized and streamline your workflow with this
-                    user-friendly issue-tracking tool for effective project
-                    management.
+                    Web app for real-time weather updates. Get detailed weather
+                    descriptions for any location, including current conditions,
+                    temperature, humidity, wind speed, and more. Stay informed
+                    and plan your activities with accurate and up-to-date
+                    weather forecasts at your fingertips.
                   </p>
                   <ul
                     className="mt-2 flex flex-wrap"
@@ -175,22 +172,17 @@ const ProjectSection = () => {
                   >
                     <li className="mr-1.5 mt-2">
                       <div className="flex items-center rounded-full bg-indigo-400/10 px-3 py-1 text-xs font-medium leading-5 text-indigo-400 ">
-                        Next.js
+                        react.js
                       </div>
                     </li>
                     <li className="mr-1.5 mt-2">
                       <div className="flex items-center rounded-full bg-indigo-400/10 px-3 py-1 text-xs font-medium leading-5 text-indigo-400 ">
-                        TypeScript
+                        Weather Api
                       </div>
                     </li>
                     <li className="mr-1.5 mt-2">
                       <div className="flex items-center rounded-full bg-indigo-400/10 px-3 py-1 text-xs font-medium leading-5 text-indigo-400 ">
-                        Prisma
-                      </div>
-                    </li>
-                    <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-indigo-400/10 px-3 py-1 text-xs font-medium leading-5 text-indigo-400 ">
-                        PlanetScale
+                        Redux
                       </div>
                     </li>
                   </ul>
